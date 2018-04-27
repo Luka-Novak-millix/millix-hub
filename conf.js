@@ -1,7 +1,7 @@
 /*jslint node: true */
 "use strict";
 
-exports.clientName = 'byteball';
+exports.clientName = 'millix';
 exports.minClientVersion = '2.2.0';
 
 // https://console.developers.google.com
@@ -56,7 +56,7 @@ exports.initial_witnesses = [
 */
 
 exports.initial_peers = [
-	'wss://byteball.org/bb'
+	'wss://millix.org/bb'
 ];
 
 exports.trustedRegistries = {

@@ -1,6 +1,6 @@
-var db = require('byteballcore/db');
-var conf = require('byteballcore/conf');
-var eventBus = require('byteballcore/event_bus.js');
+var db = require('millixcore/db');
+var conf = require('millixcore/conf');
+var eventBus = require('millixcore/event_bus.js');
 var https = require('https');
 
 
@@ -54,7 +54,7 @@ function sendRest(registrationIds) {
 		"registration_ids": registrationIds,
 		"data": {
 			"message": "New message",
-			"title": "Byteball",
+			"title": "Millix",
 			"vibrate": 1,
 			"sound": 1
 		}
